@@ -156,6 +156,7 @@ body {
 .container {
   width: 876px;
   margin: 0 auto;
+  padding: 2%;
 }
 a {
   text-decoration: none;
@@ -325,6 +326,9 @@ footer address {
   header div:last-child {
     display: none;
   }
+  .services-header-img {
+    width: 100%;
+  }
   .middle-img {
     width: 100%;
   }
@@ -333,6 +337,19 @@ footer address {
   }
   .second-section div {
     margin: 0 2%;
+  }
+  .facts div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .facts div ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .facts img {
+    display: none;
   }
 }
 @media (max-width: 500px) {
@@ -369,6 +386,11 @@ footer address {
   h1 {
     font-size: 3rem;
   }
+  .middle-img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
   .first-section {
     display: flex;
     flex-wrap: wrap;
@@ -393,5 +415,19 @@ footer address {
   footer address {
     width: 50%;
     margin-bottom: 6%;
+  }
+  .section-services {
+    padding: 0 4%;
+  }
+  .section-boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    width: 92%;
+    margin: 4%;
+  }
+  .facts {
+    padding: 0 4%;
   }
 }
